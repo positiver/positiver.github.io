@@ -1,0 +1,30 @@
+{
+  "name": "positiver.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/positiver/positiver.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/positiver/positiver.github.io/issues"
+  },
+  "homepage": "https://github.com/positiver/positiver.github.io#readme",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp-filter": "^3.0.1",
+    "gulp-if": "^1.2.5",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2"
+  }
+}

@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+/* reset */
+html {
+	font-size:100%;
+}
+body {
+	font:normal 12px '굴림', gulim, Arial, sans-serif;
+	line-height:1.3;
+	color:black;
+	background-color:#fff;
+	margin:0;
+	padding:0;
+}
+br	{
+	letter-spacing: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:1em;
+}
+h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption {
+	margin:0;
+	padding:0;
+}
+ul, ol {
+	list-style:none;
+}
+img {
+	border:0;
+}
+table {
+	width:100%;
+	border-collapse:collapse;
+}
+
+table caption {position:absolute; top:0; left:-999999px;}
+
+a:link, a:visited {
+	color: #444547;
+	text-decoration:none;
+}
+a:hover, a:focus, a:active {
+	color:#55aaea;
+	text-decoration:underline;
+}
+select, input, textarea {
+	font:normal 1em '굴림', gulim, Arial, sans-serif;
+	color:#797b80;
+	vertical-align:middle;
+}
+
+
+
+
+
+
+/* index.html */
+.wrap {
+	background-color: yellow;
+
+	width: 100%;
+}
+.header {
+	background-color: lime;
+
+	width: 940px;
+	height: 95px;
+	margin: 0 auto;
+
+	overflow: hidden;
+}
+.header h1 {
+	border: 1px solid black;
+	font-size: 30px;
+
+	margin-top: 26px;
+	display: inline-block;
+	float: left;
+}
+.nav {
+	background-color: red;
+
+	float: right;
+	margin-top: 32px;
+	margin-right: 40px;
+}
+
+.nav li {
+	border: 1px solid black;
+
+	float: left;
+	font-size: 20px;
+}
+
+.nav li + li {
+	margin-left: 40px;
+}
+
+/* slide */
+.panel {
+	background-color: green;
+
+	width: 940px;
+	height: 135px;
+	margin: 0 auto;
+	background-image: url('../img/background/sunset.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 90%;
+/*	background-size: 940px 135px;*/
+}
+
+/* main */
+
+
+.main {
+	background-color: red;
+
+	width: 940px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+
+.sub {
+	background-color: blue;
+
+	width: 180px;
+	float: left;
+}
+
+.sub h2 {
+	margin: 40px 0 10px;
+	font-size: 18px;
+	border-bottom: 2px solid;
+}
+
+.content {
+	background-color: pink;
+
+	width: 760px;
+	height: 490px;
+	float: right;
+	margin-top: 70px;
+	position: relative;
+}
+
+.dummy {
+	
+}
+
+.content h3 {
+	visibility: hidden;
+	height: 0;
+}
+
+.view {
+	background-color: red;
+
+	position: relative;
+	padding-bottom: 137px;
+}
+
+.small_view {
+
+	position: absolute;
+	top: 500px;
+	left: 0;
+}
+
+.small_view li {
+	background-color: green;	
+
+	float: left;
+
+	width: 118px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+.small_view li + li {
+	margin-left: 8px;
+}
+
+.big_view {
+	background-color: blue;	
+
+	position: relative;
+	width: 760px;
+	height: 470px;
+}
+
+.info {
+	background-color: brown;
+
+	height: 300px;
+}
+
+.blind {
+	visibility: hidden;
+	height: 0;
+}
+
+
+/*footer*/
+.footer {
+	background-color: #f1f1f3;
+	
+	width: 100%;
+	height: 130px;
+}
+
+.footer .inner {
+	background-color: gray;
+	width: 940px;
+	height: 130px;
+	margin: 0 auto;
+}
+
+.footer .inner strong {
+	background-color: red;
+
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.footer .inner ul {
+	background-color: yellow;
+}
+
+.footer .inner p {
+	background-color: blue;
+}
