@@ -7,10 +7,9 @@
 	width: 940px;
 	height: 135px;
 	margin: 0 auto;
-	background-image: url('../img/background/sunset.jpg');
+	background-image: url('../img/background/balloon.jpg');
 	background-repeat: no-repeat;
-	background-position: 50% 90%;
-/*	background-size: 940px 135px;*/
+	background-position: 50% 45%;
 }
 
 /* main */
@@ -37,10 +36,9 @@
 .content {
 	background-color: pink;
 
-	width: 760px;
+	width: 760px;	
 	float: right;
 	margin-top: 70px;
-	position: relative;
 }
 .content h3 {
 	background-color: lime;
@@ -48,35 +46,6 @@
 	margin-bottom: 20px;
 	font-size: 25px;
 	font-family: 'Open Sans', sans-serif;
-}
-.view {
-	background-color: red;
-
-	position: relative;
-	padding-bottom: 137px;
-}
-.small_view {
-	position: absolute;
-	top: 500px;
-	left: 0;
-}
-.small_view li {
-	background-color: green;	
-
-	float: left;
-
-	width: 120px;
-	height: 100px;
-}
-.small_view li + li {
-	margin-left: 8px;
-}
-.big_view {
-	background-color: blue;	
-
-	position: relative;
-	width: 760px;
-	height: 470px;
 }
 .info {
 	background-color: brown;

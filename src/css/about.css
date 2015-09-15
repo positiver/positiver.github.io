@@ -1,105 +1,5 @@
 @charset "utf-8";
 
-/* reset */
-html {
-	font-size:100%;
-}
-body {
-	font:normal 12px '나눔고딕',nanumgothic,'돋움',dotum,AppleGothic, Arial, Verdana, sans-serif;
-	line-height:1.3;
-	color:black;
-	background-color:#fff;
-	margin:0;
-	padding:0;
-}
-br	{
-	letter-spacing: 0;
-}
-h1, h2, h3, h4, h5, h6 {
-	font-size:1em;
-}
-h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption {
-	margin:0;
-	padding:0;
-}
-ul, ol {
-	list-style:none;
-}
-img {
-	border:0;
-}
-table {
-	width:100%;
-	border-collapse:collapse;
-}
-
-table caption {position:absolute; top:0; left:-999999px;}
-
-a:link, a:visited {
-	color: #444547;
-	text-decoration:none;
-}
-a:hover, a:focus, a:active {
-	color:#55aaea;
-	text-decoration:underline;
-}
-select, input, textarea {
-	font:normal 1em '나눔고딕',nanumgothic,'돋움',dotum,AppleGothic, Arial, Verdana, sans-serif;
-	color:#797b80;
-	vertical-align:middle;
-}
-
-
-
-
-
-
-/* index.html */
-.wrap {
-	background-color: yellow;
-
-	width: 100%;
-}
-.header {
-	background-color: lime;
-
-	width: 940px;
-	height: 95px;
-	margin: 0 auto;
-
-	overflow: hidden;
-}
-.header h1 {
-	border: 1px solid black;
-	font-size: 30px;
-
-	margin-top: 26px;
-	display: inline-block;
-	float: left;
-}
-.nav {
-	background-color: red;
-
-	float: right;
-	margin-top: 32px;
-	margin-right: 40px;
-}
-
-.nav li {
-	border: 1px solid black;
-
-	float: left;
-	font-size: 20px;
-}
-
-.nav li + li {
-	margin-left: 40px;
-}
-
-.nav li a {
-	text-decoration: none;
-}
-
 /* slide */
 .panel {
 	background-color: green;
@@ -113,8 +13,6 @@ select, input, textarea {
 }
 
 /* main */
-
-
 .main {
 	background-color: red;
 
@@ -123,20 +21,18 @@ select, input, textarea {
 	overflow: hidden;
 	padding-bottom: 100px;
 }
-
 .sub {
 	background-color: blue;
 
 	width: 180px;
 	float: left;
 }
-
 .sub h2 {
 	margin: 40px 0 10px;
 	font-size: 18px;
 	border-bottom: 2px solid;
+	font-family: 'Open Sans', sans-serif;
 }
-
 .content {
 	background-color: pink;
 
@@ -144,54 +40,32 @@ select, input, textarea {
 	float: right;
 	margin-top: 70px;
 }
-
 .content h3 {
+	background-color: lime;
+
 	margin-bottom: 20px;
 	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
 }
 .info {
 	background-color: brown;
 
-	height: 300px;
+/*	height: 300px;*/
+}
+
+.photo {
+	background-color: gray;
+
+	height: 405px;
+
+}
+
+.article {
+	background-color: green;
+
 }
 
 .blind {
 	visibility: hidden;
 	height: 0;
 }
-
-
-/*footer*/
-.footer {
-	background-color: #f1f1f3;
-	
-	width: 100%;
-	height: 130px;
-}
-
-.footer .inner {
-	background-color: gray;
-	width: 940px;
-	height: 130px;
-	margin: 0 auto;
-}
-
-.footer .inner strong {
-	background-color: red;
-
-	display: inline-block;
-	margin-top: 25px;
-}
-
-.footer .inner ul {
-	background-color: yellow;
-}
-
-.footer .inner p {
-	background-color: blue;
-}
-
-
-
-
-
