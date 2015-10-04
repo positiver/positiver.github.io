@@ -29,10 +29,28 @@
 	float: left;
 }
 .sub h2 {
+	width:140px;
 	margin: 40px 0 10px;
 	font-size: 18px;
 	border-bottom: 2px solid;
 	font-family: 'Open Sans', sans-serif;
+}
+.comment {
+	background-color: pink;
+
+	overflow:hidden;
+	width:140px;
+}
+.comment img {
+	width:120px;
+
+	display:block;
+	margin:0 auto;
+}
+.comment p {
+	background-color: green;
+
+	margin-top: 10px;
 }
 .content {
 	background-color: pink;
@@ -49,12 +67,16 @@
 	font-size: 25px;
 	font-family: 'Open Sans', sans-serif;
 }
+
+
+
 .view {
-	background-color: red;
+	background-color: gray;
 
 	position: relative;
 	padding-bottom: 137px;
 }
+
 .small_view {
 	position: absolute;
 	top: 500px;
@@ -68,6 +90,20 @@
 	width: 120px;
 	height: 100px;
 }
+
+.small_view li a img {
+	width:100%;
+}
+
+.small_view li a {
+	text-decoration: none;
+}
+
+.small_view li a p{
+	text-align:center;
+}
+
+
 .small_view li + li {
 	margin-left: 8px;
 }
@@ -78,6 +114,15 @@
 	width: 760px;
 	height: 470px;
 }
+
+.story {
+	background-color: blue;
+
+	margin-top: 33px;
+	padding-top: 28px;
+	border-top: 1px solid #c6c6c6;
+}
+
 .info {
 	background-color: brown;
 

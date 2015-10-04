@@ -28,15 +28,33 @@
 	float: left;
 }
 .sub h2 {
+	width:140px;
 	margin: 40px 0 10px;
 	font-size: 18px;
 	border-bottom: 2px solid;
 	font-family: 'Open Sans', sans-serif;
 }
+.comment {
+	background-color: pink;
+
+	overflow:hidden;
+	width:140px;
+}
+.comment img {
+	width:120px;
+
+	display:block;
+	margin:0 auto;
+}
+.comment p {
+	background-color: green;
+
+	margin-top: 10px;
+}
 .content {
 	background-color: pink;
 
-	width: 760px;	
+	width: 760px;
 	float: right;
 	margin-top: 70px;
 }

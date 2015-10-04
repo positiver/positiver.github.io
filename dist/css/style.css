@@ -124,6 +124,11 @@
 	margin-bottom: 5px;
 }
 
+.shortcuts ul li img {
+	width:100%;
+	height:160px;
+}
+
 .shortcuts ul li + li {
     margin-left: 20px;
 }
