@@ -12,10 +12,6 @@
 	/*slide*/
 	overflow: hidden;
 	position: relative;
-	top: 0px;
-	right: 0px;
-	bottom: 0px;
-	left: 0px;
 	background: #000;
 
 }
