@@ -6,7 +6,8 @@ html {
 }
 body {
 	font:normal 12px '나눔고딕',nanumgothic,'돋움',dotum,AppleGothic,Arial,Verdana,sans-serif;
-	line-height:1.3;
+/*	line-height:1.3; 기본이 보통 1인테 그 이상으로 설정해두면 컨텐츠에 따라 공백 때문에 다르게 보일 수 있다 */
+	line-height:1;
 	color:black;
 	background-color:#fff;
 	margin:0;
@@ -32,9 +33,7 @@ table {
 	width:100%;
 	border-collapse:collapse;
 }
-
 table caption {position:absolute; top:0; left:-999999px;}
-
 a:link, a:visited {
 	color: #444547;
 	text-decoration:none;
@@ -51,12 +50,39 @@ select, input, textarea {
 
 /* common */
 .wrap {
-	background-color: yellow;
+/*	background-color: yellow;*/
 
 	width: 100%;
 }
-.header {
-	background-color: lime;
+.skipNavi {
+	background-color: gray;
+
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.skipNavi a {
+	display: block;
+	font-size: 0;
+}
+.skipNavi a:focus, .skipNavi a:active{
+	height: auto;
+	width: auto;
+	padding: 5px;
+	font-size: 14px;
+}
+.skipNavi ul li a {
+	text-decoration: none;
+}
+
+
+
+
+nav {
+/*	background-color: lime;*/
 
 	width: 940px;
 	height: 95px;
@@ -64,39 +90,71 @@ select, input, textarea {
 
 	overflow: hidden;
 }
-.header h1 {
-	border: 1px solid black;
+
+
+
+nav h1 {
 	font-size: 30px;
 
-	margin-top: 14px;
+	margin: 14px 0 0 0;
 	display: inline-block;
 	float: left;
 }
-.header h1 a img {
+nav h1 a img {
 	display: block;
 }
-.nav {
-	background-color: red;
+.lv-1 {
+/*	background-color: red;*/
 
 	float: right;
-	margin-top: 32px;
-	margin-right: 40px;
+	margin: 32px 40px 0 0;
 }
-
-.nav li {
-	border: 1px solid black;
+.lv-1 > li {
 
 	float: left;
 	font-size: 20px;
-}
+	text-shadow: -1px 0 #C1D832, 0 1px #C1D832, 1px 0 #C1D832, 0 -1px #C1D832;
 
-.nav li a {
+/*	overflow: hidden;*/
+
+
+}
+.lv-1 > li a {
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
+	color: #206F20;
+
+}
+.lv-1 > li + li {
+	margin: 0 0 0 40px;
+}
+#gnb {
 }
 
-.nav li + li {
-	margin-left: 40px;
+#gnb .lv-2 {
+/*	background-color: white;*/
+
+	display: none;
+
+	position: absolute;
+	z-index: 99999;
+
+
+}
+
+#gnb .lv-2 li {
+/*	background-color: red;*/
+	text-shadow: -1px 0 #C1D832, 0 1px #C1D832, 1px 0 #C1D832, 0 -1px #C1D832;
+}
+
+#gnb .lv-2 li a {
+	color: #206F20;
+	font-size: 16px;
+}
+
+#gnb .on > .lv-2,
+#gnb li:hover .lv-2 {
+	display: block;
 }
 
 /* footer */
@@ -107,9 +165,7 @@ select, input, textarea {
 	height: 130px;
 /*	overflow: hidden;*/
 }
-
-.footer .inner {
-	background-color: lime;
+.footer .footerWrap {
 
 	width: 940px;
 	height: 130px;
@@ -117,59 +173,48 @@ select, input, textarea {
 
 	position: relative;
 }
-
-.footer .inner strong {
-	background-color: red;
+.footer .footerWrap strong {
 
 	display: inline-block;
-	margin-top: 25px;
+	margin: 25px 0 0 0;
 /*	float: left;*/
 }
-
-.footer .inner strong img {
+.footer .footerWrap strong img {
 	width: 150px;
 }
-
-.footer .inner .job-kakao {
-	background-color: yellow;
+.footer .footerWrap .job-kakao {
 
 	width: 200px;
 	position: absolute;
-	top: 25px;
+	top: 32px;
 	left: 200px;
 
 /*	overflow: hidden;*/
 /*	float: left;*/
 }
-
-.footer .inner .job-kakao p {
-	border: 1px solid black;
+.footer .footerWrap .job-kakao p {
+/*	border: 1px solid black;*/
 
 /*	float: left;*/
-	margin-bottom: 14px;
+	margin: 0 0 10px 0;
 }
-
-.footer .inner .phone-mail {
-	background-color: yellow;
+.footer .footerWrap .phone-mail {
 
 	width: 200px;
 	position: absolute;
-	top: 25px;
+	top: 32px;
 	left: 400px;
 	
 /*	overflow: hidden;*/
 /*	float: left;*/
 }
-
-.footer .inner .phone-mail p {
-	border: 1px solid black;
+.footer .footerWrap .phone-mail p {
+/*	border: 1px solid black;*/
 
 /*	float: left;*/
-	margin-bottom: 14px;
+	margin: 0 0 10px 0;
 }
-
-.footer .inner > p {
-	background-color: blue;
+.footer .footerWrap > p {
 
 /*	clear: both;
 	margin-left: 180px;*/

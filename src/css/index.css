@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+/* slide */
+.slideContainer {
+	/*slide*/
+	overflow: hidden;
+	position: relative;
+	background: #000;
+
+	min-width: 940px;
+	width: 100%;
+	height: 402px;
+}
+.slide {
+	/*slide*/
+	position: absolute;
+
+	width: 100%;
+/*	display: inline-block;*/
+}
+.slide > li {
+/*	display: none;*/
+	width: 100%;
+/*	position: absolute;
+	top: 0px;
+	left: 0px;*/
+
+	/*slide*/
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.slide > li > img {
+	width: 100%;
+	height: 402px;
+	margin: 0 auto;
+}
+
+/* main */
+.main {
+	width: 940px;
+	margin: 0 auto;
+}
+.news {
+
+	width: 940px;
+	height: 50px;
+/*	border-bottom: 1px solid #e4e4e4;*/
+/*	display: inline-block; 이거때문에 숏컷에 공백이 생김*/
+	overflow: hidden;
+}
+.news h2 {
+
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+
+	margin: 12px 35px 0 0;
+	display: inline-block;
+	float: left;
+}
+.news ul {
+	float: left;
+}
+.news ul li {
+	border: 1px solid red;
+	
+	margin: 12px 0 0 0;
+}
+.rolling {
+	border: 1px solid black;
+
+	display: inline-block;
+	float: left;
+	margin: 12px 0 0 0;
+}
+.blind {
+	visibility: hidden;
+	height: 0;
+}
+.shortcuts {
+/*	font-size: 0; 
+	display: block;*/
+/*	overflow: hidden;*/
+	padding: 0 0 10px 0;
+	border-bottom: 3px solid black;
+}
+.shortcuts ul {
+/*	display: inline-block;*/
+	overflow: hidden;
+}
+.shortcuts ul li {
+/* display: inline-block; */
+	float: left;
+	width: 300px;
+/*	height: 160px;*/
+/*	height: 200px;*/
+}
+.shortcuts ul li h3 {
+/*	display: block;*/
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 5px 0 5px 0;
+}
+.shortcuts ul li p {
+	line-height: 1.7;
+}
+.shortcuts ul li img {
+	width:100%;
+	height:160px;
+}
+.shortcuts ul li + li {
+	margin: 0 0 0 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.shortcuts ul li a  * {
+	display: block;
+}
+.sns {
+
+	margin: 5px 0 5px 0;
+	overflow: hidden;
+}
+
+.sns p {
+
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 70px;
+
+	float: right;
+
+	margin: 0 10px 0 0;
+}
+
+.sns a {
+
+	text-decoration: none;
+	display: block;
+	float: right;
+}
+.sns a img {
+
+	width: 70px;
+	display: block;
+	opacity: 0.5;
+}
+
+.sns a img:hover {
+	opacity: 1;
+}

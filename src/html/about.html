@@ -7,38 +7,65 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="author" content="hyunjujung" />
-    <title>Home</title>
+    <title>AMANDA's UX Lab | About Me</title>
 	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/sub.css">
 	<link rel="stylesheet" type="text/css" href="css/about.css">
-
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
-	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 	<script src="Libs/jquery-2.1.4.js"></script>
+	<link rel="shortcut icon" href="img/favicon.ico">
 </head>
 <body>
+<div class="skipNavi">
+	<ul>
+		<li>
+			<a href="#content">본문 바로가기</a>
+			<a href="#gnb">주메뉴 바로가기</a>
+		</li>
+		<li></li>
+	</ul>
+</div>
 <div class="wrap">
-	<div class="header">
-		<h1><a href="index.html"><img src="img/profile/amanda.png"></a></h1>
-		<ul class="nav">
-			<li><a href="about.html">About Me</a></li>
-			<li><a href="history.html">History</a></li>
-			<li><a href="gallery.html">Photo Gallery</a></li>
+	<nav id="gnb">
+		<h1><a href="index.html"><img src="img/profile/logo.png" alt="AMANDA's UX Lab 로고"></a></h1>
+		<ul class="lv-1">
+			<li>
+				<a href="about.html">Introduce</a>
+				<ul class="lv-2">
+					<li><a href="about.html">About Me</a></li>
+					<li><a href="history.html">History</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="accessibility.html">Workroom</a>
+				<ul class="lv-2">
+					<li><a href="accessibility.html">Web Accessibility</a></li>
+					<li><a href="work.html">Work Experience</a></li>
+					<li><a href="university.html">University</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="travel.html">Photo Gallery</a>
+				<ul class="lv-2">
+					<li><a href="travel.html">Travel</a></li>
+					<li><a href="Interest.html">Interest</a></li>
+				</ul>
+			</li>
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
-	</div>
-	<div class="panel"></div>
+	</nav>
+<!-- 	<div class="panel"></div> -->
 	<div class="main">
 		<div class="sub">
-			<h2>About Me</h2>
-			<div class="comment">
-				<img src="img/profile/flower.jpg" alt="">
-				<p>안녕하세요. 환영합니다. 정현주입니다.</p>
-			</div>
+			<h2>Introduce</h2>
 			<ul>
-				<li><a href="">아만다정</a></li>
-				<li><a href="">lorem</a></li>
-				<li><a href="">lorem</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="history.html">History</a></li>
 			</ul>
+			<div class="comment">
+				<img src="img/profile/suit.jpg" alt="">
+				<p>AMANDA's UX Lab에 오신 것을 환영합니다.</p>
+			</div>
 		</div>
 		<div class="content">
 			<h3>About Me</h3>
@@ -47,25 +74,33 @@
 					<span>Front-End Developer</span>
 					<span>정현주입니다.</span>
 				</div>
-				<div class="article">Front-End 분야를 선택한 이유? 2년 2개월 동안 Back-End 개발 및 운영 업무를 맡아 일하면서 개발, 네트워크, 퍼블리싱, 서버 관리 등 다양한 업무를 경험했습니다. 이러한 과정을 통해 진정 제가 하고 싶고 또 저를 설레게 하는 업무가 이 분야라고 느끼게 되었습니다. 그리고 평소 신념과 같이 돈보다는 하고 싶은 일을 하기 위해 이 자리에 있습니다.</div>
-				<div class="article">저의 경험, 경력? 이니텍(주)이라는 기업에서 2년 2개월 동안 인터넷 뱅킹 Back-End 개발 및 운영 업무를 맡아 일했습니다. Java, Jsp, Javascript, Jquery를 사용했습니다. 신우편번호 신규 서비스 구현, 전자어음 배서 기능 추가, 전자금융사기예방서비스 구현 등에 참여하며 경험을 쌓았습니다. 운영팀이라는 위치는 시스템부터 개발까지 전반적인 업무 프로세스를 알기에 좋은 위치였다고 생각합니다. 앞으로 제 커리어에 도움이 되는 경험이라고 생각합니다.</div>
-				<div class="article">저의 강점? 서버 관리와 Back-End 개발 경험을 통해 전반적인 시스템에 대한 이해가 생겼습니다. 고객 지원을 통해 커뮤니케이션 능력이 향상되었습니다. 이러한 강점을 가지고 Front-End 분야과 웹접근성을 공부했습니다. 앞으로 어떤 환경에서 일하던 내 커리어에 큰 도움이 될 자산이라고 생각합니다.</div>
+				<div class="article">
+				<strong>Front-End 분야를 선택한 이유?</strong>
+				<p>2년 2개월 동안 Back-End 개발 및 운영 업무를 맡아 일하면서 개발, 네트워크, 퍼블리싱, 서버 관리 등 다양한 업무를 경험했습니다. 이러한 과정을 통해 진정 제가 하고 싶고 또 저를 설레게 하는 업무가 이 분야라고 느끼게 되었습니다. 그리고 평소 신념과 같이 돈보다는 하고 싶은 일을 하기 위해 이 자리에 있습니다.</p>
+				</div>
+				<div class="article">
+				<strong>저의 경험, 경력?</strong>
+				<p>이니텍(주)이라는 기업에서 2년 2개월 동안 인터넷 뱅킹 Back-End 개발 및 운영 업무를 맡아 일했습니다. Java, Jsp, Javascript, Jquery를 사용했습니다. 신우편번호 신규 서비스 구현, 전자어음 배서 기능 추가, 전자금융사기예방서비스 구현 등에 참여하며 경험을 쌓았습니다. 운영팀이라는 위치는 시스템부터 개발까지 전반적인 업무 프로세스를 알기에 좋은 위치였다고 생각합니다. 앞으로 제 커리어에 도움이 되는 경험이라고 생각합니다.</p>
+				</div>
+				<div class="article">
+				<strong>저의 강점?</strong>
+				<p>서버 관리와 Back-End 개발 경험을 통해 전반적인 시스템에 대한 이해가 생겼습니다. 고객 지원을 통해 커뮤니케이션 능력이 향상되었습니다. 이러한 강점을 가지고 Front-End 분야과 웹접근성을 공부했습니다. 앞으로 어떤 환경에서 일하던 내 커리어에 큰 도움이 될 자산이라고 생각합니다.</p>
+				</div>
 			</div>
 		</div>
 	</div>
 	<div class="footer">
-		<div class="inner">
-			<strong>Amanda Jung</strong>
+		<div class="footerWrap">
+			<strong><img src="img/profile/logo.png" alt="AMANDA's UX Lab 로고"></strong>
 			<div class="job-kakao">
 				<p>프론트엔드 개발자 : 아만다</p>
 				<p>카카오톡 : betafish</p>
 			</div>
 			<div class="phone-mail">
-				<p>전화 : 010 8894 8681</p>
+				<p>전화 : 010 - 8894 - 8681</p>
 				<p>전자우편 : im_positiver@naver.com</p>
 			</div>
 			<p>Copyright AMANDA 2015. All rights reserved.</p>
-
 		</div>
 	</div>
 </div>

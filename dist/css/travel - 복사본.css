@@ -1,0 +1,147 @@
+@charset "utf-8";
+/*
+.panel {
+	background-color: green;
+
+	width: 940px;
+	height: 135px;
+	margin: 0 auto;
+	background-image: url('../img/background/sunset.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 90%;
+}
+.main {
+	background-color: red;
+
+	width: 940px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 100px;
+}
+.sub {
+	background-color: blue;
+
+	width: 180px;
+	float: left;
+}
+.sub h2 {
+	width:160px;
+	margin: 40px 0 10px;
+	font-size: 23px;
+	border-bottom: 2px solid;
+	font-family: 'Open Sans', sans-serif;
+	color: #206F20;
+	line-height: 1.6;
+}
+.sub ul {
+ 	margin: 30px 0 0 0;
+}
+.sub ul li a {
+  	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+  	line-height: 1.3;
+}
+.comment {
+	background-color: pink;
+
+	overflow:hidden;
+	width:140px;
+}
+.comment img {
+	width:120px;
+
+	display:block;
+	margin:0 auto;
+}
+.comment p {
+	background-color: green;
+
+	margin-top: 10px;
+}
+*/
+.content {
+	background-color: pink;
+
+	width: 760px;
+	float: right;
+	margin-top: 70px;
+	position: relative;
+}
+.content h3 {
+	background-color: lime;
+
+	margin-bottom: 20px;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.view {
+	background-color: gray;
+
+	position: relative;
+	padding-bottom: 137px;
+}
+
+.small_view {
+	position: absolute;
+	top: 500px;
+	left: 0;
+}
+.small_view li {
+	background-color: green;
+
+	float: left;
+
+	width: 120px;
+	height: 100px;
+}
+
+.small_view li a img {
+	width:100%;
+}
+
+.small_view li a {
+	text-decoration: none;
+}
+
+.small_view li a p{
+	border: 1px solid black;
+
+	text-align:center;
+	margin: 3px 0 0 0;
+}
+
+
+.small_view li + li {
+	margin-left: 8px;
+}
+.big_view {
+	background-color: blue;	
+
+	position: relative;
+	width: 760px;
+	height: 470px;
+}
+.big_view img {
+	width: 100%;
+}
+.story {
+	background-color: blue;
+
+	margin-top: 33px;
+	padding-top: 28px;
+	border-top: 1px solid #c6c6c6;
+}
+
+.info {
+	background-color: brown;
+
+	height: 300px;
+}
+.blind {
+	visibility: hidden;
+	height: 0;
+}

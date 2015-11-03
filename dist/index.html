@@ -7,25 +7,53 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="author" content="hyunjujung" />
-    <title>Home</title>
+    <title>AMANDA's UX Lab</title>
 	<link rel="stylesheet" type="text/css" href="css/common.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
-
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+	<script src="Libs/dom-helpers.js"></script>
 	<script src="Libs/jquery-2.1.4.js"></script>
+	<link rel="shortcut icon" href="img/favicon.ico">
 </head>
 <body>
+<div class="skipNavi">
+	<ul>
+		<li>
+			<a href="#content">본문 바로가기</a>
+			<a href="#gnb">주메뉴 바로가기</a>
+		</li>
+		<li></li>
+	</ul>
+</div>
 <div class="wrap">
-	<div class="header">
-		<h1><a href="index.html"><img src="img/profile/amanda.png"></a></h1>
-		<ul class="nav">
-			<li><a href="about.html">About Me</a></li>
-			<li><a href="history.html">History</a></li>
-			<li><a href="gallery.html">Photo Gallery</a></li>
+	<nav id="gnb">
+		<h1><a href="index.html"><img src="img/profile/logo.png" alt="AMANDA's UX Lab 로고"></a></h1>
+		<ul class="lv-1">
+			<li>
+				<a href="about.html">Introduce</a>
+				<ul class="lv-2">
+					<li><a href="about.html">About Me</a></li>
+					<li><a href="history.html">History</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="accessibility.html">Workroom</a>
+				<ul class="lv-2">
+					<li><a href="accessibility.html">Web Accessibility</a></li>
+					<li><a href="work.html">Work Experience</a></li>
+					<li><a href="university.html">University</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="travel.html">Photo Gallery</a>
+				<ul class="lv-2">
+					<li><a href="travel.html">Travel</a></li>
+					<li><a href="Interest.html">Interest</a></li>
+				</ul>
+			</li>
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
-	</div>
+	</nav>
 	<div class="slideContainer">
 		<ul class="slide">
 			<li data-src="img/photo01.jpg"></li>
@@ -35,47 +63,51 @@
 			<li data-src="img/photo05.jpg"></li>
 		</ul>
 	</div>
-	<div class="main">
+	<div class="main" id="content">
 		<div class="news">
 			<h2>My Strength</h2>
 		</div>
 		<div class="shortcuts">
-			<h2 class="blind">서비스</h2>
+			<h2 class="blind">My Strength</h2>
 			<ul>
 				<li class="banner">
-					<img src="img/banner/experience.jpg" alt="">
-					<strong>Experience</strong>
+					<img src="img/banner/experience.jpg" alt="한 사람이 다른 사람들보다 앞서 나가는 그림">
+					<h3>Experience</h3>
 					<p>Back-End 개발, 운영 2년의 경험을 통해 html, css, javascript, jquery를 익혔습니다. 보다 넒은 시야로 앞선 생각을 하겠습니다.</p>
 				</li>
-				<li class="banner" style="background-color:yellow;">
-					<img src="img/banner/communication.jpg" alt="">
-					<strong>Communication</strong>
+				<li class="banner">
+					<img src="img/banner/communication.jpg" alt="한 사람이 다른 사람들과 연결된 그림 ">
+					<h3>Communication</h3>
 					<p>개발자, 퍼블리셔, 디자이너와 함께 협력하여 업무를 완성시킨 경험, 고객 지원을 통해 문제점을 해결한 경험을 통해 함께 일하는 방법을 배웠습니다.</p>
 				</li>
 				<li class="banner">
-					<img src="img/banner/choice.jpg" alt="">
-					<strong>Choice</strong>
+					<img src="img/banner/choice.jpg" alt="한 사람에게 다양한 선택이 있음을 의미하는 그림">
+					<h3>Choice</h3>
 					<p>IT업계에서 일하면서 이 분야는 본인이 흥미를 느끼지 않으면 버티기 힘들다는 것을 느꼈습니다. 그것이 바로 Front-End 분야로 전향하고자 하는 이유입니다.</p>
 				</li>
 			</ul>
 		</div>
-		<div class="sns">sns</div>
+		<div class="sns">
+			<a href="https://github.com/positiver/positiver.github.io" target="_new"><img src="img/icon/github.png" alt="github 바로가기"></a>
+			<p>View on github</p>
+		</div>
 	</div>
 	<div class="footer">
-		<div class="inner">
-			<strong><img src="img/profile/amanda.png"></strong>
+		<div class="footerWrap">
+			<strong><img src="img/profile/logo.png" alt="AMANDA's UX Lab 로고"></strong>
 			<div class="job-kakao">
 				<p>프론트엔드 개발자 : 아만다</p>
 				<p>카카오톡 : betafish</p>
 			</div>
 			<div class="phone-mail">
-				<p>전화 : 010 8894 8681</p>
+				<p>전화 : 010 - 8894 - 8681</p>
 				<p>전자우편 : im_positiver@naver.com</p>
 			</div>
 			<p>Copyright AMANDA 2015. All rights reserved.</p>
 		</div>
 	</div>
 </div>
+<script src="js/gnb.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

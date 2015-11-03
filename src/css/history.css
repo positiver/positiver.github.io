@@ -1,6 +1,5 @@
 @charset "utf-8";
-
-/* slide */
+/*
 .panel {
 	background-color: green;
 
@@ -11,8 +10,6 @@
 	background-repeat: no-repeat;
 	background-position: 50% 38%;
 }
-
-/* main */
 .main {
 	background-color: red;
 
@@ -28,11 +25,23 @@
 	float: left;
 }
 .sub h2 {
-	width:140px;
+	width:160px;
 	margin: 40px 0 10px;
-	font-size: 18px;
+  font-size: 23px;
 	border-bottom: 2px solid;
 	font-family: 'Open Sans', sans-serif;
+  color: #206F20;
+  line-height: 1.6;
+}
+.sub ul {
+  margin: 30px 0 0 0;
+}
+
+.sub ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.3;
 }
 .comment {
 	background-color: pink;
@@ -51,15 +60,16 @@
 
 	margin-top: 10px;
 }
+*/
 .content {
-	background-color: pink;
+/*	background-color: pink;*/
 
 	width: 760px;	
 	float: right;
 	margin-top: 70px;
 }
 .content h3 {
-	background-color: brown;
+/*	background-color: lime;*/
 
 	margin-bottom: 20px;
 	font-size: 25px;
@@ -70,14 +80,6 @@
 	visibility: hidden;
 	height: 0;
 }
-
-
-
-
-
-
-
-
 
 
 /*---------------------------------*/
@@ -130,7 +132,7 @@ body {
 }
 
 .timeline li {
-  padding: 1em 0;
+  padding: 2em 0;
 }
 
 .timeline li:after {
@@ -164,7 +166,7 @@ body {
 .flag {
   position: relative;
   display: inline;
-  background: rgb(248,248,248);
+  background: #f1f1f3;
   padding: 6px 10px;
   border-radius: 5px;
   
@@ -213,7 +215,7 @@ body {
   width: 0;
   margin-top: -8px;
   border: solid transparent;
-  border-left-color: rgb(248,248,248);
+  border-left-color: #f1f1f3;
   border-width: 8px;
   pointer-events: none;
 }
@@ -227,7 +229,7 @@ body {
   width: 0;
   margin-top: -8px;
   border: solid transparent;
-  border-right-color: rgb(248,248,248);
+  border-right-color: #f1f1f3;
   border-width: 8px;
   pointer-events: none;
 }
@@ -236,8 +238,8 @@ body {
   display: inline;
   
   line-height: 1em;
-  font-size: 0.66666em;
-  color: rgb(250,80,80);
+  font-size: 1em;
+  color: red;
   vertical-align: middle;
 }
 
@@ -252,21 +254,37 @@ body {
 .time {
   display: inline-block;
   padding: 4px 6px;
-  background: rgb(248,248,248);
+  background: #f1f1f3;
+}
+
+.desc-wrapper {
+  float: right;
+
+  display: inline;
+  
+  line-height: 1.5em;
+  font-size: 1em;
+  vertical-align: middle;
 }
 
 .desc {
+  display: inline-block;
+  margin: 0 0 0 0;
+  text-align: left;
+}
+
+/*.desc {
   margin: 1em 0.75em 0 0;
   
   font-size: 0.77777em;
   font-style: italic;
   line-height: 1.5em;
-}
-
+}*/
+/*
 .direction-r .desc {
   margin: 1em 0 0 0.75em;
 }
-
+*/
 /* ================ Timeline Media Queries ================ */
 /* 
 @media screen and (max-width: 660px) {

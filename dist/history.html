@@ -7,38 +7,56 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="author" content="hyunjujung" />
-    <title>Home</title>
+    <title>AMANDA's UX Lab | History</title>
 	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/sub.css">
 	<link rel="stylesheet" type="text/css" href="css/history.css">
-
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
-
 	<script src="Libs/jquery-2.1.4.js"></script>
+	<link rel="shortcut icon" href="img/favicon.ico">
 </head>
 <body>
 <div class="wrap">
-	<div class="header">
-		<h1><a href="index.html"><img src="img/profile/amanda.png"></a></h1>
-		<ul class="nav">
-			<li><a href="about.html">About Me</a></li>
-			<li><a href="history.html">History</a></li>
-			<li><a href="gallery.html">Photo Gallery</a></li>
+	<nav id="gnb">
+		<h1><a href="index.html"><img src="img/profile/logo.png" alt="AMANDA's UX Lab 로고"></a></h1>
+		<ul class="lv-1">
+			<li>
+				<a href="about.html">Introduce</a>
+				<ul class="lv-2">
+					<li><a href="about.html">About Me</a></li>
+					<li><a href="history.html">History</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="accessibility.html">Workroom</a>
+				<ul class="lv-2">
+					<li><a href="accessibility.html">Web Accessibility</a></li>
+					<li><a href="work.html">Work Experience</a></li>
+					<li><a href="university.html">University</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="travel.html">Photo Gallery</a>
+				<ul class="lv-2">
+					<li><a href="travel.html">Travel</a></li>
+					<li><a href="Interest.html">Interest</a></li>
+				</ul>
+			</li>
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
-	</div>
-	<div class="panel"></div>
+	</nav>
+<!-- 	<div class="panel"></div> -->
 	<div class="main">
 		<div class="sub">
-			<h2>History</h2>
-			<div class="comment">
-				<img src="img/profile/flower.jpg" alt="">
-				<p>안녕하세요. 환영합니다. 정현주입니다.</p>
-			</div>
+			<h2>Introduce</h2>
 			<ul>
-				<li><a href="">아만다정</a></li>
-				<li><a href="">lorem</a></li>
-				<li><a href="">lorem</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="history.html">History</a></li>
 			</ul>
+			<div class="comment">
+				<img src="img/profile/suit.jpg" alt="">
+				<p>AMANDA's UX Lab에 오신 것을 환영합니다.</p>
+			</div>
 		</div>
 		<div class="content">
 			<h3>History</h3>
@@ -52,77 +70,92 @@
 	<li>
 		<div class="direction-l">
 			<div class="flag-wrapper">
-				<span class="flag">인터메이저</span>
+				<span class="flag">멀티미디어전문가 자격증</span>
+				<span class="time-wrapper"><span class="time">2015.8 - 2016.3</span></span>
+			</div>
+		</div>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="desc-wrapper"><span class="desc">멀티미디어콘텐츠제작전문가 자격증 필기 합격, 실기 준비 중</span></span>
+			</div>
+		</div>
+	</li>
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">인터메이저 기업 연수</span>
 				<span class="time-wrapper"><span class="time">2015.9 - 2015.11</span></span>
 			</div>
-			<div class="desc">My first employer. All the stuff I've learned and projects I've been working on.</div>
 		</div>
 		<div class="direction-r">
 			<div class="flag-wrapper">
-				<span class="flag">Front-End 개발 전문가 양성과정</span>
-				<span class="time-wrapper"><span class="time">2015.7 - 2015.9</span></span>
+				<span class="desc-wrapper"><span class="desc">패밀리 클럽 사이트에 배정 받아 사이트 유지, 보수</span></span>
 			</div>
-			<div class="desc">HTML, CSS, Javascript, jQuery, 웹 접근성 등</div>
 		</div>
 	</li>
-
-	<li>
-		<div class="sdirection-r">
-			<div class="desc">HTML, CSS, Javascript, jQuery, 웹 접근성 등</div>
-		</div>
-	</li>
-
-	<!-- Item 1 -->
 	<li>
 		<div class="direction-l">
 			<div class="flag-wrapper">
-				<span class="flag">Front-End 개발 전문가 양성과정</span>
+				<span class="flag">Front-End 개발 전문가 과정</span>
 				<span class="time-wrapper"><span class="time">2015.7 - 2015.9</span></span>
 			</div>
-			<div class="desc">HTML, CSS, Javascript, jQuery, 웹 접근성 등</div>
 		</div>
 		<div class="direction-r">
 			<div class="flag-wrapper">
-				<span class="flag">Front-End 개발 전문가 양성과정</span>
-				<span class="time-wrapper"><span class="time">2015.7 - 2015.9</span></span>
+				<span class="desc-wrapper"><span class="desc">HTML, CSS, Javascript, jQuery, 웹 접근성 등 교육 수료</span></span>
 			</div>
-			<div class="desc">HTML, CSS, Javascript, jQuery, 웹 접근성 등</div>
 		</div>
 	</li>
-  
-	<!-- Item 2 -->
 	<li>
 		<div class="direction-l">
 			<div class="flag-wrapper">
-				<span class="flag">이니텍(주)</span>
-				<span class="time-wrapper"><span class="time">2012.12 - 2015.2</span></span>
+				<span class="flag">웹접근성 지킴이 활동</span>
+				<span class="time-wrapper"><span class="time">2015.4 - 2015.12</span></span>
 			</div>
-			<div class="desc">수협은행 인터넷 뱅킹 운영 & 개발, 서버 관리, 고객 지원 등</div>
 		</div>
 		<div class="direction-r">
 			<div class="flag-wrapper">
-				<span class="flag">이니텍(주)</span>
-				<span class="time-wrapper"><span class="time">2012.12 - 2015.2</span></span>
+				<span class="desc-wrapper"><span class="desc">한국정보화진흥원에서 웹접근성 평가 보고서 작성</span></span>
 			</div>
-			<div class="desc">수협은행 인터넷 뱅킹 운영 & 개발, 서버 관리, 고객 지원 등</div>
 		</div>
 	</li>
-
-	<!-- Item 3 -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">이니텍(주) 정직원</span>
+				<span class="time-wrapper"><span class="time">2012.12 - 2015.2</span></span>
+			</div>
+		</div>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="desc-wrapper"><span class="desc">수협은행 인터넷 뱅킹 운영 & 개발, 서버 관리, 고객 지원 등 다양한 업무 경험</span></span>
+			</div>
+		</div>
+	</li>
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Windows & .NET 교육과정</span>
+				<span class="time-wrapper"><span class="time">2010.4 - 2010.8</span></span>
+			</div>
+		</div>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="desc-wrapper"><span class="desc">.NET, C, C++, C#, Network 등 교육 수료</span></span>
+			</div>
+		</div>
+	</li>
 	<li>
 		<div class="direction-l">
 			<div class="flag-wrapper">
 				<span class="flag">광운대학교</span>
 				<span class="time-wrapper"><span class="time">2007.3 - 2012.2</span></span>
 			</div>
-			<div class="desc">주전공 : 컴퓨터 공학, 부전공 : 경영학</div>
 		</div>
 		<div class="direction-r">
 			<div class="flag-wrapper">
-				<span class="flag">광운대학교</span>
-				<span class="time-wrapper"><span class="time">2007.3 - 2012.2</span></span>
+				<span class="desc-wrapper"><span class="desc">주전공 : 컴퓨터 공학, 부전공 : 경영학</span></span>
 			</div>
-			<div class="desc">주전공 : 컴퓨터 공학, 부전공 : 경영학</div>
 		</div>
 	</li>
 </ul>
@@ -130,33 +163,17 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 		</div>
 	</div>
 	<div class="footer">
-		<div class="inner">
-			<strong>Amanda Jung</strong>
+		<div class="footerWrap">
+			<strong><img src="img/profile/logo.png" alt="AMANDA's UX Lab 로고"></strong>
 			<div class="job-kakao">
 				<p>프론트엔드 개발자 : 아만다</p>
 				<p>카카오톡 : betafish</p>
 			</div>
 			<div class="phone-mail">
-				<p>전화 : 010 8894 8681</p>
+				<p>전화 : 010 - 8894 - 8681</p>
 				<p>전자우편 : im_positiver@naver.com</p>
 			</div>
 			<p>Copyright AMANDA 2015. All rights reserved.</p>
