@@ -73,12 +73,73 @@
 	font-size: 25px;
 	font-family: 'Open Sans', sans-serif;
 }
+.content h4 {
+	background-color: red;
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
 .info {
 	background-color: brown;
 
-	height: 300px;
+	font-size: 0;
+	margin: 0 0 20px 0;
+}
+
+.info .fa {
+	margin: 0 10px 0 0;
+}
+.info span {
+	background-color: green;
+	font-size: 18px;
+	width: 250px;
+	display: inline-block;
+	margin: 0;
+}
+.info span + span {
+	margin-left: 5px;
 }
 .blind {
 	visibility: hidden;
 	height: 0;
+}
+
+.send-mail {
+	background-color: brown;
+	height: 10px;
+}
+
+.form-group {
+	font-size: 0;
+}
+
+.form-group + .form-group {
+	margin: 10px 0 0 0;
+}
+.control-label {
+	display: inline-block;
+	width: 10%;
+	font-size: 16px;
+	line-height: 2;
+	vertical-align: middle;
+	text-align: center;
+}
+.form-control {
+	display: inline-block;
+	width: 80%;
+	font-size: 16px;
+	line-height: 2;
+	border-radius: 5px;
+}
+.send-btn {
+	background-color: red;
+
+	width: 150px;
+	text-align: center;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+.send-btn a {
+	line-height: 2;
+
 }

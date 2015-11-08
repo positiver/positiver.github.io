@@ -14,7 +14,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 	<script src="Libs/jquery-2.1.4.js"></script>
 	<link rel="shortcut icon" href="img/favicon.ico">
-</head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"></head>
 <body>
 <div class="wrap">
 	<nav id="gnb">
@@ -65,7 +65,33 @@
 		</div>
 		<div class="content">
 			<h3>Contact</h3>
+			<h4>연락처</h4>
 			<div class="info">
+  				<span><i class="fa fa-envelope"></i>im_positiver@naver.com</span>
+  				<span><i class="fa fa-phone"></i>010 - 8894 - 8681</span>
+  				<span><i class="fa fa-map-marker"></i>서울특별시 은평구 대조동</span>
+			</div>
+			<h4>문의하기</h4>
+			<div class="form-group has-blue">
+				<label class="control-label" for="input-name">이름</label>
+				<input type="text" class="form-control" id="input-name" placeholder="이름을 입력해주세요 (필수)">
+			</div>
+			<div class="form-group has-success">
+				<label class="control-label" for="input-email">이메일</label>
+				<input type="email" class="form-control" id="input-email" placeholder="이메일을 입력해주세요 (필수)">
+			</div>
+			<div class="form-group has-warning">
+				<label class="control-label" for="input-subject">제목</label>
+				<input type="text" class="form-control" id="input-subject">
+			</div>
+			<div class="form-group has-error">
+				<label class="control-label" for="input-msg">메세지</label>
+				<textarea type="text" class="form-control" id="input-msg" style="height:200px;"></textarea>
+			</div>
+			<div class="send-btn">
+				<a href="">
+					<span>보내기</span>
+				</a>
 			</div>
 		</div>
 	</div>

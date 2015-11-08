@@ -90,8 +90,9 @@
 	background-color: gray;
 	overflow: hidden;
 
+
 /*	position: relative;*/
-	padding-bottom: 137px;
+/*	padding-bottom: 137px;*/
 }
 
 .small_view {
@@ -100,15 +101,20 @@
 	left: 0;*/
 
 	float: left;
-	margin: 0 0 10px 0;
+
+	width: 768px;
+
 }
 .small_view li {
+	position: relative;
 	background-color: green;
 
 	float: left;
 
 	width: 248px;
-	height: 147px;
+
+	margin: 0 8px 8px 0;
+
 }
 
 .small_view li a img {
@@ -119,8 +125,8 @@
 	text-decoration: none;
 }
 
-.small_view li a:hover {
-	opacity: 0.5;
+.small_view li a {
+	transition:opacity 1s;
 }
 
 .small_view li a p{
@@ -130,11 +136,20 @@
 	margin: 3px 0 0 0;
 }
 
+.small_view .text {
+	position: absolute;
+	top: 0;
+	width: 248px;
+	opacity: 0;
+	height: 100%;
 
-.small_view li + li {
-	margin-left: 8px;
 }
-.big_view {
+
+.text:hover {
+	opacity: 1;
+}
+
+/*.big_view {
 	float: left;
 
 	background-color: blue;	
@@ -145,13 +160,11 @@
 }
 .big_view img {
 	width: 100%;
-}
+}*/
 .story {
 	background-color: blue;
 
-	margin-top: 33px;
-	padding-top: 28px;
-	border-top: 1px solid #c6c6c6;
+	margin: 0 0 33px 0;
 }
 .story p {
 	line-height: 1.5;

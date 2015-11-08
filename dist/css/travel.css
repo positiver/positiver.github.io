@@ -61,7 +61,6 @@
 }
 */
 .content {
-	background-color: pink;
 
 	width: 760px;
 	float: right;
@@ -69,7 +68,6 @@
 	position: relative;
 }
 .content h3 {
-	background-color: lime;
 
 	margin-bottom: 20px;
 	font-size: 25px;
@@ -79,7 +77,6 @@
 
 
 .view {
-	background-color: gray;
 
 	position: relative;
 	padding-bottom: 137px;
@@ -91,7 +88,6 @@
 	left: 0;
 }
 .small_view li {
-	background-color: green;
 
 	float: left;
 
@@ -108,7 +104,6 @@
 }
 
 .small_view li a p {
-	border: 1px solid black;
 
 	text-align:center;
 	margin: 3px 0 0 0;
@@ -119,7 +114,6 @@
 	margin-left: 8px;
 }
 .big_view {
-	background-color: blue;	
 
 	position: relative;
 	width: 760px;
@@ -129,11 +123,10 @@
 	width: 100%;
 }
 .story {
-	background-color: blue;
 
 	margin-top: 33px;
 	padding-top: 28px;
-	border-top: 1px solid #c6c6c6;
+	border-top: 2px solid #c6c6c6;
 }
 .story p {
 	line-height: 1.5;
