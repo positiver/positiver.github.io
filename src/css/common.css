@@ -82,15 +82,17 @@ nav {
 /*	background-color: lime;*/
 
 	width: 940px;
-	height: 95px;
+	height: 105px;
 	margin: 0 auto;
 
 	overflow: hidden;
 }
 nav h1 {
+/*	background-color: red;*/
+
 	font-size: 30px;
 
-	margin: 14px 0 0 0;
+	margin: 15px 0 0 0;
 	display: inline-block;
 	float: left;
 }
@@ -101,7 +103,7 @@ nav h1 a img {
 /*	background-color: red;*/
 
 	float: right;
-	margin: 32px 40px 0 0;
+	margin: 33px 40px 0 0;
 }
 .lv-1 > li {
 
@@ -116,6 +118,7 @@ nav h1 a img {
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
 	color: #206F20;
+	line-height: 1.4;
 }
 .lv-1 > li + li {
 	margin: 0 0 0 40px;
@@ -139,6 +142,7 @@ nav h1 a img {
 
 	font-size: 16px;
 	font-weight: bold;
+	line-height: 1.4;
 }
 #gnb .on > .lv-2,
 #gnb li:hover .lv-2 {
@@ -147,6 +151,7 @@ nav h1 a img {
 
 /* footer */
 .footer {
+	font-family: 'Open Sans', sans-serif;
 	background-color: #f1f1f3;
 	
 	width: 100%;

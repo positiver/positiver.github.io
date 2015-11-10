@@ -161,12 +161,15 @@
 }
 
 .send-btn a {
-	line-height: 2;
 	font-size: 18px;
 	font-weight: bold;
 	text-decoration: none;
+	width: 100%;
 }
-
+.send-btn a {
+	line-height: 2;
+	display: block;
+}
 .send-btn:hover {
 	background-color: #d4d3d0;
 }
