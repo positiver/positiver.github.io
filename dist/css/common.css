@@ -113,7 +113,8 @@ nav h1 a img {
 
 	float: left;
 	font-size: 20px;
-	text-shadow: -1px 0 #C1D832, 0 1px #C1D832, 1px 0 #C1D832, 0 -1px #C1D832;
+	font-weight: bold;
+/*	text-shadow: -1px 0 #C1D832, 0 1px #C1D832, 1px 0 #C1D832, 0 -1px #C1D832;*/
 
 /*	overflow: hidden;*/
 
@@ -144,12 +145,14 @@ nav h1 a img {
 
 #gnb .lv-2 li {
 /*	background-color: red;*/
-	text-shadow: -1px 0 #C1D832, 0 1px #C1D832, 1px 0 #C1D832, 0 -1px #C1D832;
+/*	text-shadow: -1px 0 #C1D832, 0 1px #C1D832, 1px 0 #C1D832, 0 -1px #C1D832;*/
 }
 
 #gnb .lv-2 li a {
 	color: #206F20;
+
 	font-size: 16px;
+	font-weight: bold;
 }
 
 #gnb .on > .lv-2,
