@@ -42,41 +42,10 @@
 	width: 940px;
 	margin: 0 auto;
 }
-.news {
-
-	width: 940px;
-	height: 50px;
-/*	border-bottom: 1px solid #e4e4e4;*/
-/*	display: inline-block; 이거때문에 숏컷에 공백이 생김*/
-	overflow: hidden;
-}
-.news h2 {
-
+h2 {
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
-
-	margin: 12px 35px 0 0;
-	display: inline-block;
-	float: left;
-}
-.news ul {
-	float: left;
-}
-.news ul li {
-	border: 1px solid red;
-	
-	margin: 12px 0 0 0;
-}
-.rolling {
-	border: 1px solid black;
-
-	display: inline-block;
-	float: left;
-	margin: 12px 0 0 0;
-}
-.blind {
-	visibility: hidden;
-	height: 0;
+	margin: 12px 0 25px 0;
 }
 .shortcuts {
 /*	font-size: 0; 
@@ -84,7 +53,6 @@
 /*	overflow: hidden;*/
 	padding: 0 0 10px 0;
 
-	/*border-bottom: 3px solid black;*/
 	border-bottom: 2px solid #c6c6c6;
 }
 .shortcuts ul {
@@ -99,7 +67,6 @@
 /*	height: 200px;*/
 }
 .shortcuts ul li h3 {
-/*	display: block;*/
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
 	margin: 5px 0 5px 0;
@@ -119,13 +86,10 @@
 	display: block;
 }
 .sns {
-
 	margin: 5px 0 5px 0;
 	overflow: hidden;
 }
-
 .sns p {
-
 	font-size: 20px;
 	font-weight: bold;
 	font-family: 'Open Sans', sans-serif;
@@ -135,20 +99,16 @@
 
 	margin: 0 10px 0 0;
 }
-
 .sns a {
-
-	text-decoration: none;
-	display: block;
 	float: right;
+	display: block;
+	text-decoration: none;
 }
 .sns a img {
-
 	width: 70px;
 	display: block;
 	opacity: 0.5;
 }
-
 .sns a img:hover {
 	opacity: 1;
 }

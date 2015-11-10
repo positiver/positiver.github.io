@@ -61,23 +61,17 @@
 }
 */
 .content {
-
 	width: 760px;
 	float: right;
 	margin-top: 70px;
 	position: relative;
 }
 .content h3 {
-
 	margin-bottom: 20px;
 	font-size: 25px;
 	font-family: 'Open Sans', sans-serif;
 }
-
-
-
 .view {
-
 	position: relative;
 	padding-bottom: 137px;
 }
@@ -135,8 +129,4 @@
 	background-color: brown;
 
 	height: 300px;
-}
-.blind {
-	visibility: hidden;
-	height: 0;
 }

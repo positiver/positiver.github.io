@@ -71,7 +71,6 @@
 	overflow: hidden;
 }
 .content h3 {
-
 	margin-bottom: 20px;
 	font-size: 25px;
 	font-family: 'Open Sans', sans-serif;
@@ -79,17 +78,13 @@
 .info {
 	background-color: #f1f1f3;
 
-/*	border: 1px solid #f1f1f3;*/
-
 	width: 350px;
 	float: left;
 	padding: 10px 10px 10px 10px;
 	border-radius: 10px;
-
 }
 .info + .info {
 	margin-left: 20px;
-
 }
 .info strong {
 	line-height: 1.5;
@@ -103,27 +98,21 @@
 .business-card {
 	background-color: #f1f1f3;
 
-/*	border: 1px solid #f1f1f3;*/
-
 	width: 350px;
 	float: left;
 	padding: 10px 10px 10px 10px;
 	border-radius: 10px;
-
 }
-
 .business-card a {
 	text-decoration: none;
 	width: 370px;
 	height: 161px;
 }
-
 .business-card:hover {
 /*	background-color: #F5F7CA;*/
 /*	background-color: #ff7500;*/
 	background-color: #d4d3d0;
 }
-
 .business-card strong {
 	line-height: 1.5;
 	font-size: 18px;
@@ -138,24 +127,23 @@
 	height: 0;
 }
 
-
-
-
 .work-gallery {
-	background-color: blue;
 	float: left;
 	overflow: hidden;
 
+	padding: 80px 0 0 0;
+
+	position: relative;
 }
 .work-gallery-pagenation {
-	background-color: red;
 
-
-
-	float: left;
+/*	float: left;*/
 /*	margin: 30px 0 14px 290px;*/
-	margin: 30px 0 14px 0;
-
+/*	margin: 30px 0 14px 0;*/
+	width: 760px;
+	position: absolute;
+	top: 40px;
+	left: 0;
 	text-align: center;
 }
 
@@ -167,7 +155,6 @@
 	background: #d4d3d0;
 	border-radius: 50%;
 }
-
 .work-gallery-pagenation [role=button]:last-child {
 	margin-right: 0;
 }
@@ -202,84 +189,3 @@
 	height: 680px;
 	float: left;
 }
-
-
-
-
-
-
-
-
-
-
-.view {
-	background-color: gray;
-	overflow: hidden;
-
-/*	position: relative;*/
-	padding-bottom: 137px;
-}
-
-.small_view {
-/*	position: absolute;
-	top: 0px;
-	left: 0;*/
-
-	float: left;
-	margin: 0 0 10px 0;
-}
-.small_view li {
-	background-color: green;
-
-	float: left;
-
-	width: 248px;
-	height: 147px;
-}
-
-.small_view li a img {
-	width:100%;
-}
-
-.small_view li a {
-	text-decoration: none;
-}
-
-.small_view li a:hover {
-	opacity: 0.5;
-}
-
-.small_view li a p{
-	border: 1px solid black;
-
-	text-align:center;
-	margin: 3px 0 0 0;
-}
-
-
-.small_view li + li {
-	margin-left: 8px;
-}
-.big_view {
-	float: left;
-
-	background-color: blue;	
-
-	position: relative;
-	width: 760px;
-	height: 470px;
-}
-.big_view img {
-	width: 100%;
-}
-.story {
-	background-color: blue;
-
-	margin-top: 33px;
-	padding-top: 28px;
-	border-top: 1px solid #c6c6c6;
-}
-.story p {
-	line-height: 1.5;
-}
-

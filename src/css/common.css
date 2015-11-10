@@ -67,6 +67,7 @@ select, input, textarea {
 .skipNavi a {
 	display: block;
 	font-size: 0;
+	text-decoration: none;
 }
 .skipNavi a:focus, .skipNavi a:active{
 	height: auto;
@@ -74,10 +75,6 @@ select, input, textarea {
 	padding: 5px;
 	font-size: 14px;
 }
-.skipNavi ul li a {
-	text-decoration: none;
-}
-
 
 
 
@@ -90,9 +87,6 @@ nav {
 
 	overflow: hidden;
 }
-
-
-
 nav h1 {
 	font-size: 30px;
 
@@ -117,21 +111,17 @@ nav h1 a img {
 /*	text-shadow: -1px 0 #C1D832, 0 1px #C1D832, 1px 0 #C1D832, 0 -1px #C1D832;*/
 
 /*	overflow: hidden;*/
-
-
 }
 .lv-1 > li a {
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
 	color: #206F20;
-
 }
 .lv-1 > li + li {
 	margin: 0 0 0 40px;
 }
 #gnb {
 }
-
 #gnb .lv-2 {
 /*	background-color: white;*/
 
@@ -139,22 +129,17 @@ nav h1 a img {
 
 	position: absolute;
 	z-index: 99999;
-
-
 }
-
 #gnb .lv-2 li {
 /*	background-color: red;*/
 /*	text-shadow: -1px 0 #C1D832, 0 1px #C1D832, 1px 0 #C1D832, 0 -1px #C1D832;*/
 }
-
 #gnb .lv-2 li a {
 	color: #206F20;
 
 	font-size: 16px;
 	font-weight: bold;
 }
-
 #gnb .on > .lv-2,
 #gnb li:hover .lv-2 {
 	display: block;
@@ -177,7 +162,6 @@ nav h1 a img {
 	position: relative;
 }
 .footer .footerWrap strong {
-
 	display: inline-block;
 	margin: 25px 0 0 0;
 /*	float: left;*/
@@ -186,7 +170,6 @@ nav h1 a img {
 	width: 150px;
 }
 .footer .footerWrap .job-kakao {
-
 	width: 200px;
 	position: absolute;
 	top: 32px;
@@ -202,7 +185,6 @@ nav h1 a img {
 	margin: 0 0 10px 0;
 }
 .footer .footerWrap .phone-mail {
-
 	width: 200px;
 	position: absolute;
 	top: 32px;
@@ -218,7 +200,6 @@ nav h1 a img {
 	margin: 0 0 10px 0;
 }
 .footer .footerWrap > p {
-
 /*	clear: both;
 	margin-left: 180px;*/
 

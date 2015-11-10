@@ -81,9 +81,7 @@
 
 /*	height: 300px;*/
 }
-
 .photo {
-
 /* 	height: 405px; */
 	height: 300px;
 	margin-bottom:15px;
@@ -93,7 +91,6 @@
 	background-position: 90% 45%;
 
 	overflow: hidden;
-
 }
 
 .photo span {
@@ -102,12 +99,9 @@
 	font-weight: bold;
 	line-height: 1.5;
 	margin: 0 0 0 20px;
-
 }
-
 .photo span:first-child {
-
-	margin-top:100px;
+	margin: 100px 0 0 0;
 }
 
 .article {
@@ -120,9 +114,5 @@
 	line-height: 1.5;
 }
 .article + .article {
-	margin-top: 15px;
-}
-.blind {
-	visibility: hidden;
-	height: 0;
+	margin: 15px 0 0 0;
 }

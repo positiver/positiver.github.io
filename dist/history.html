@@ -16,12 +16,16 @@
 	<link rel="shortcut icon" href="img/favicon.ico">
 </head>
 <body>
+<div class="skipNavi">
+	<a href="#content">본문 바로가기</a>
+	<a href="#gnb-1">주메뉴 바로가기</a>
+</div>
 <div class="wrap">
 	<nav id="gnb">
 		<h1><a href="index.html"><img src="img/profile/logo.png" alt="AMANDA's UX Lab 로고"></a></h1>
 		<ul class="lv-1">
 			<li>
-				<a href="about.html">Introduce</a>
+				<a href="about.html" id="gnb-1">Introduce</a>
 				<ul class="lv-2">
 					<li><a href="about.html">About Me</a></li>
 					<li><a href="history.html">History</a></li>
@@ -58,124 +62,115 @@
 				<p>AMANDA's UX Lab에 오신 것을 환영합니다.</p>
 			</div>
 		</div>
-		<div class="content">
+		<div class="content" id="content">
 			<h3>History</h3>
-
-
-
-
-
-<!-- The Timeline -->
-<ul class="timeline">
-	<li>
-		<div class="direction-l">
-			<div class="flag-wrapper">
-				<span class="flag">멀티미디어전문가 자격증</span>
-				<span class="time-wrapper"><span class="time">2015.8 - 2016.3</span></span>
-			</div>
-		</div>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="desc-wrapper"><span class="desc">멀티미디어콘텐츠제작전문가 자격증 필기 합격, 실기 준비 중</span></span>
-			</div>
-		</div>
-	</li>
-	<li>
-		<div class="direction-l">
-			<div class="flag-wrapper">
-				<span class="flag">인터메이저 기업 연수</span>
-				<span class="time-wrapper"><span class="time">2015.9 - 2015.11</span></span>
-			</div>
-		</div>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="desc-wrapper"><span class="desc">패밀리 클럽 사이트에 배정 받아 사이트 유지, 보수</span></span>
-			</div>
-		</div>
-	</li>
-	<li>
-		<div class="direction-l">
-			<div class="flag-wrapper">
-				<span class="flag">Front-End 개발 전문가 과정</span>
-				<span class="time-wrapper"><span class="time">2015.7 - 2015.9</span></span>
-			</div>
-		</div>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="desc-wrapper"><span class="desc">HTML, CSS, Javascript, jQuery, 웹 접근성 등 교육 수료</span></span>
-			</div>
-		</div>
-	</li>
-	<li>
-		<div class="direction-l">
-			<div class="flag-wrapper">
-				<span class="flag">웹접근성 지킴이 활동</span>
-				<span class="time-wrapper"><span class="time">2015.4 - 2015.12</span></span>
-			</div>
-		</div>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="desc-wrapper"><span class="desc">한국정보화진흥원에서 웹접근성 평가 보고서 작성</span></span>
-			</div>
-		</div>
-	</li>
-	<li>
-		<div class="direction-l">
-			<div class="flag-wrapper">
-				<span class="flag">경력 디딤돌 멘토링</span>
-				<span class="time-wrapper"><span class="time">2014.12 - 2014.2</span></span>
-			</div>
-		</div>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="desc-wrapper"><span class="desc">멘티로 참여하여 나의 커리어를 어떻게 쌓아 나갈 것인지 설계</span></span>
-			</div>
-		</div>
-	</li>
-	<li>
-		<div class="direction-l">
-			<div class="flag-wrapper">
-				<span class="flag">이니텍(주) 정직원</span>
-				<span class="time-wrapper"><span class="time">2012.12 - 2015.2</span></span>
-			</div>
-		</div>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="desc-wrapper"><span class="desc">수협은행 인터넷 뱅킹 운영 & 개발, 서버 관리, 고객 지원 등 다양한 업무 경험</span></span>
-			</div>
-		</div>
-	</li>
-	<li>
-		<div class="direction-l">
-			<div class="flag-wrapper">
-				<span class="flag">Windows & .NET 교육과정</span>
-				<span class="time-wrapper"><span class="time">2010.4 - 2010.8</span></span>
-			</div>
-		</div>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="desc-wrapper"><span class="desc">.NET, C, C++, C#, Network 등 교육 수료</span></span>
-			</div>
-		</div>
-	</li>
-	<li>
-		<div class="direction-l">
-			<div class="flag-wrapper">
-				<span class="flag">광운대학교</span>
-				<span class="time-wrapper"><span class="time">2007.3 - 2012.2</span></span>
-			</div>
-		</div>
-		<div class="direction-r">
-			<div class="flag-wrapper">
-				<span class="desc-wrapper"><span class="desc">주전공 : 컴퓨터 공학, 부전공 : 경영학</span></span>
-			</div>
-		</div>
-	</li>
-</ul>
-
-
-
-
+			<!-- The Timeline -->
+			<ul class="timeline">
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">멀티미디어전문가 자격증</span>
+							<span class="time-wrapper"><span class="time">2015.8 - 2016.3</span></span>
+						</div>
+					</div>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="desc-wrapper"><span class="desc">멀티미디어콘텐츠제작전문가 자격증 필기 합격, 실기 준비 중</span></span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">인터메이저 기업 연수</span>
+							<span class="time-wrapper"><span class="time">2015.9 - 2015.11</span></span>
+						</div>
+					</div>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="desc-wrapper"><span class="desc">패밀리 클럽 사이트에 배정 받아 사이트 유지, 보수</span></span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">Front-End 개발 전문가 과정</span>
+							<span class="time-wrapper"><span class="time">2015.7 - 2015.9</span></span>
+						</div>
+					</div>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="desc-wrapper"><span class="desc">HTML, CSS, Javascript, jQuery, 웹 접근성 등 교육 수료</span></span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">웹접근성 지킴이 활동</span>
+							<span class="time-wrapper"><span class="time">2015.4 - 2015.12</span></span>
+						</div>
+					</div>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="desc-wrapper"><span class="desc">한국정보화진흥원에서 웹접근성 평가 보고서 작성</span></span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">경력 디딤돌 멘토링</span>
+							<span class="time-wrapper"><span class="time">2014.12 - 2014.2</span></span>
+						</div>
+					</div>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="desc-wrapper"><span class="desc">멘티로 참여하여 나의 커리어를 어떻게 쌓아 나갈 것인지 설계</span></span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">이니텍(주) 정직원</span>
+							<span class="time-wrapper"><span class="time">2012.12 - 2015.2</span></span>
+						</div>
+					</div>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="desc-wrapper"><span class="desc">수협은행 인터넷 뱅킹 운영 & 개발, 서버 관리, 고객 지원 등 다양한 업무 경험</span></span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">Windows & .NET 교육과정</span>
+							<span class="time-wrapper"><span class="time">2010.4 - 2010.8</span></span>
+						</div>
+					</div>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="desc-wrapper"><span class="desc">.NET, C, C++, C#, Network 등 교육 수료</span></span>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="direction-l">
+						<div class="flag-wrapper">
+							<span class="flag">광운대학교</span>
+							<span class="time-wrapper"><span class="time">2007.3 - 2012.2</span></span>
+						</div>
+					</div>
+					<div class="direction-r">
+						<div class="flag-wrapper">
+							<span class="desc-wrapper"><span class="desc">주전공 : 컴퓨터 공학, 부전공 : 경영학</span></span>
+						</div>
+					</div>
+				</li>
+			</ul>
 		</div>
 	</div>
 	<div class="footer">
@@ -193,6 +188,7 @@
 		</div>
 	</div>
 </div>
+<script src="js/gnb.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
