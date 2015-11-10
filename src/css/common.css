@@ -88,19 +88,20 @@ nav {
 	overflow: hidden;
 }
 nav h1 {
-/*	background-color: red;*/
+/*	background-color: green;*/
 
 	font-size: 30px;
 
-	margin: 15px 0 0 0;
+	margin: 19px 0 0 0;
 	display: inline-block;
 	float: left;
 }
 nav h1 a img {
 	display: block;
+	width: 180px;
 }
 .lv-1 {
-/*	background-color: red;*/
+/*	background-color: green;*/
 
 	float: right;
 	margin: 33px 40px 0 0;
@@ -151,6 +152,7 @@ nav h1 a img {
 
 /* footer */
 .footer {
+	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f1f1f3;
 	
@@ -178,7 +180,7 @@ nav h1 a img {
 	width: 200px;
 	position: absolute;
 	top: 32px;
-	left: 200px;
+	left: 250px;
 
 /*	overflow: hidden;*/
 /*	float: left;*/
@@ -190,10 +192,10 @@ nav h1 a img {
 	margin: 0 0 10px 0;
 }
 .footer .footerWrap .phone-mail {
-	width: 200px;
+	width: 250px;
 	position: absolute;
 	top: 32px;
-	left: 400px;
+	left: 500px;
 	
 /*	overflow: hidden;*/
 /*	float: left;*/
@@ -210,5 +212,5 @@ nav h1 a img {
 
 	position: absolute;
 	top: 90px;
-	left: 200px;
+	left: 250px;
 }

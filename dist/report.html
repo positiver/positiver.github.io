@@ -11,9 +11,33 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 	<script src="Libs/jquery-2.1.4.js"></script>
 	<link rel="shortcut icon" href="img/favicon.ico">
+</head>
 <body>
-<div>
-	<img src="img/workroom/report01.jpg" alt="">
+<div class="report">
+	<img src="" alt="">
 </div>
+<script type="text/javascript">
+(function(global, $, undefined){
+	'use strict';
+
+	var urlVal	= window.location.href,
+		uIdx	= urlVal.indexOf('?');
+
+
+	if( uIdx > -1 ){
+		var getParam = urlVal.substr(uIdx);
+	}
+
+	var paramData = getParam.split('=');
+	var pInx = paramData[0],
+		pVal = paramData[1];
+
+	var result = "img/workroom/" + pVal;
+	var report = document.querySelector('.report img');
+
+	report.setAttribute('src', result);
+
+})(window, window.jQuery);
+</script>
 </body>
 </html>

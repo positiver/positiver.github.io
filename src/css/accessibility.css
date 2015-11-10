@@ -63,6 +63,7 @@
 }
 */
 .content {
+	font-size: 13px;
 /*	background-color: pink;*/
 
 	width: 760px;
@@ -74,13 +75,25 @@
 	font-size: 25px;
 	font-family: 'Open Sans', sans-serif;
 }
+.content h4 {
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
+.story {
+/*	background-color: lightblue;*/
+
+	margin: 0 0 33px 0;
+}
+.story p {
+	line-height: 1.5;
+}
 .info {
 /*	background-color: brown;*/
 
 	height: 300px;
 }
 .view {
-	background-color: gray;
+/*	background-color: gray;*/
 	overflow: hidden;
 
 /*	position: relative;*/
@@ -121,7 +134,9 @@
 .text p{
 
 	text-align:center;
-	line-height: 156px;
+/*	line-height: 156px;*/
+	line-height: 1.5;
+	margin: 55px 0 0 0;
 	font-size: 15px;
 }
 
@@ -144,11 +159,3 @@
 	opacity: 1;
 }
 
-.story {
-	background-color: lightblue;
-
-	margin: 0 0 33px 0;
-}
-.story p {
-	line-height: 1.5;
-}
