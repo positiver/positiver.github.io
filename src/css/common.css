@@ -151,7 +151,7 @@ nav h1 a img {
 }
 
 /* footer */
-.footer {
+footer {
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f1f1f3;
@@ -160,7 +160,7 @@ nav h1 a img {
 	height: 130px;
 /*	overflow: hidden;*/
 }
-.footer .footerWrap {
+footer .footerWrap {
 
 	width: 940px;
 	height: 130px;
@@ -168,15 +168,15 @@ nav h1 a img {
 
 	position: relative;
 }
-.footer .footerWrap strong {
+footer .footerWrap strong {
 	display: inline-block;
 	margin: 25px 0 0 0;
 /*	float: left;*/
 }
-.footer .footerWrap strong img {
+footer .footerWrap strong img {
 	width: 150px;
 }
-.footer .footerWrap .job-kakao {
+footer .footerWrap .job-kakao {
 	width: 200px;
 	position: absolute;
 	top: 32px;
@@ -185,13 +185,13 @@ nav h1 a img {
 /*	overflow: hidden;*/
 /*	float: left;*/
 }
-.footer .footerWrap .job-kakao p {
+footer .footerWrap .job-kakao p {
 /*	border: 1px solid black;*/
 
 /*	float: left;*/
 	margin: 0 0 10px 0;
 }
-.footer .footerWrap .phone-mail {
+footer .footerWrap .phone-mail {
 	width: 250px;
 	position: absolute;
 	top: 32px;
@@ -200,13 +200,13 @@ nav h1 a img {
 /*	overflow: hidden;*/
 /*	float: left;*/
 }
-.footer .footerWrap .phone-mail p {
+footer .footerWrap .phone-mail p {
 /*	border: 1px solid black;*/
 
 /*	float: left;*/
 	margin: 0 0 10px 0;
 }
-.footer .footerWrap > p {
+footer .footerWrap > p {
 /*	clear: both;
 	margin-left: 180px;*/
 
