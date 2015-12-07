@@ -27,7 +27,7 @@ section h4 {
 }
 
 .info .contact-container {
-	background-color: #f1f1f3;
+	background-color: #c6c6c6;
 	float: left;
 	font-size: 0;
 	width: 230px;
@@ -93,7 +93,7 @@ section h4 {
 	border-radius: 5px;
 }
 .send-btn {
-	background-color: #f1f1f3;
+	background-color: #c6c6c6;
 
 	width: 150px;
 	text-align: center;
