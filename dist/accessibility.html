@@ -72,7 +72,8 @@
 			<article class="view">
 				<ul class="small_view">
 					<li>
-						<a href="report.html?img=report01.jpg" target="_new">
+						<!--<a href="report.html?img=report01.jpg" target="_new">-->
+						<a href="file/report01.pdf" target="_new">
 							<img src="img/workroom/site01.jpg" alt="인하공업전문대학 사이트">
 							<div class="text">
 								<p>인하공업전문대학<br />새창으로 보기</p>
@@ -80,7 +81,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="report.html?img=report02.jpg" target="_new">
+						<a href="file/report02.pdf" target="_new">
 							<img src="img/workroom/site02.jpg" alt="경상북도학생문화회관 사이트">
 							<div class="text">
 								<p>경상북도학생문화회관<br />새창으로 보기</p>
@@ -88,7 +89,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="report.html?img=report03.jpg" target="_new">
+						<a href="file/report03.pdf" target="_new">
 							<img src="img/workroom/site03.jpg" alt="경상북도울릉교육지원청 사이트">
 							<div class="text">
 								<p>경상북도울릉교육지원청<br />새창으로 보기</p>
@@ -96,7 +97,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="report.html?img=report04.jpg" target="_new">
+						<a href="file/report04.pdf" target="_new">
 							<img src="img/workroom/site04.jpg" alt="에듀데이터서비스시스템 사이트">
 							<div class="text">
 								<p>에듀데이터서비스시스템<br />새창으로 보기</p>
@@ -104,7 +105,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="report.html?img=report05.jpg" target="_new">
+						<a href="file/report05.pdf" target="_new">
 							<img src="img/workroom/site05.jpg" alt="경북지방경찰청 사이트">
 							<div class="text">
 								<p>경북지방경찰청<br />새창으로 보기</p>
@@ -112,7 +113,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="report.html?img=report06.jpg" target="_new">
+						<a href="file/report06.pdf" target="_new">
 							<img src="img/workroom/site06.jpg" alt="전남대학교 사이트">
 							<div class="text">
 								<p>전남대학교<br />새창으로 보기</p>
@@ -120,7 +121,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="report.html?img=report07.jpg" target="_new">
+						<a href="file/report07.pdf" target="_new">
 							<img src="img/workroom/site07.jpg" alt="금수장 관광호텔 사이트">
 							<div class="text">
 								<p>금수장 관광호텔<br />새창으로 보기</p>
@@ -128,16 +129,23 @@
 						</a>
 					</li>
 					<li>
-						<a href="javascript:fileDown('file/test.pptx')">
-						다운로드
-							<img src="img/workroom/site07.jpg" alt="금수장 관광호텔 사이트">
+						<a href="file/report08.pdf" target="_new">
+							<img src="img/workroom/site08.jpg" alt="금수장 관광호텔 사이트">
 							<div class="text">
-								<p>금수장 관광호텔<br />새창으로 보기</p>
+								<p>경상남도특수교육원<br />새창으로 보기</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="file/report09.pdf" target="_new">
+							<img src="img/workroom/site09.jpg" alt="금수장 관광호텔 사이트">
+							<div class="text">
+								<p>경북사이버학습<br />새창으로 보기</p>
 							</div>
 						</a>
 					</li>
 				</ul>
-				<iframe id="fileDown"sstyle="visibility:hidden" src="" width="1" height="1"></iframe>
+				<iframe id="fileDown" style="visibility:hidden;" src="" width="1" height="1"></iframe>
 			</article>
 		</section>
 	</div>
@@ -159,7 +167,7 @@
 <script src="js/gnb.js"></script>
 <script src="js/main.js"></script>
 <script type="text/javascript">
-function fileDown(url){
+function fileDownload(url){
 	document.getElementById('fileDown').src = url;
 	document.getElementById('fileDown').location.reload();
 }
