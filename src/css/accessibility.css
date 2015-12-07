@@ -55,7 +55,7 @@ section h4 {
 
 	float: left;
 
-	width: 248px;
+	width: 246px;
 
 	margin: 0 8px 8px 0;
 
@@ -63,13 +63,14 @@ section h4 {
 
 .small_view li a img {
 	width:100%;
+	border: 1px solid #c6c6c6;
 }
 
 .small_view li a {
 	text-decoration: none;
 }
 
-.text p{
+.text p {
 
 	text-align:center;
 /*	line-height: 156px;*/
@@ -93,7 +94,7 @@ section h4 {
 .text:hover {
 /*	background-color: #C1D832;*/
 /*	background-color: #8BB333;*/
-	background-color: #f1f1f3;
+	background-color: #c6c6c6;
 	opacity: 1;
 }
 
