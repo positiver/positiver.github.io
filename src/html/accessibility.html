@@ -67,7 +67,7 @@
 			<h3>Web Accessibility</h3>
 			<h4>웹 접근성 평가 보고서</h4>
 			<div class="story">
-				<p>한국정보화진흥원에서 주최하는 웹 접근성 지킴이로 활동하고 있습니다. 2015년 4월부터 교육을 수료하고 사이트를 배정 받아 웹접근성 평가 보고서를 작성하고 있습니다.</p>
+				<p>한국정보화진흥원에서 주최하는 웹 접근성 지킴이로 활동하고 있습니다. 2015년 4월부터 교육을 수료하고 사이트를 배정 받아 웹접근성 평가 보고서를 작성하고 컨설팅 활동 중입니다.</p>
 			</div>
 			<article class="view">
 				<ul class="small_view">
@@ -127,7 +127,17 @@
 							</div>
 						</a>
 					</li>
+					<li>
+						<a href="javascript:fileDown('file/test.pptx')">
+						다운로드
+							<img src="img/workroom/site07.jpg" alt="금수장 관광호텔 사이트">
+							<div class="text">
+								<p>금수장 관광호텔<br />새창으로 보기</p>
+							</div>
+						</a>
+					</li>
 				</ul>
+				<iframe id="fileDown"sstyle="visibility:hidden" src="" width="1" height="1"></iframe>
 			</article>
 		</section>
 	</div>
@@ -148,5 +158,11 @@
 </div>
 <script src="js/gnb.js"></script>
 <script src="js/main.js"></script>
+<script type="text/javascript">
+function fileDown(url){
+	document.getElementById('fileDown').src = url;
+	document.getElementById('fileDown').location.reload();
+}
+</script>
 </body>
 </html>
