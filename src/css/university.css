@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 section {
-	background-color: pink;
+/*	background-color: pink;*/
 
 	font-size: 13px;
 	width: 760px;
@@ -9,28 +9,42 @@ section {
 	margin-top: 70px;
 }
 section h3 {
-	background-color: lime;
+/*	background-color: lime;*/
 
 	margin-bottom: 20px;
 	font-size: 25px;
 	font-family: 'Open Sans', sans-serif;
+}
+section h4 {
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
+.story {
+/*	background-color: lightblue;*/
+
+	margin: 0 0 33px 0;
+}
+.story p {
+	line-height: 1.5;
 }
 .info {
 	background-color: brown;
 
 	height: 300px;
 }
-.blind {
-	visibility: hidden;
-	height: 0;
-}
+
+
+
+
+
+
+
 
 .view {
-	background-color: gray;
 	overflow: hidden;
 
 /*	position: relative;*/
-	padding-bottom: 137px;
+/*	padding-bottom: 137px;*/
 }
 
 .small_view {
@@ -39,52 +53,50 @@ section h3 {
 	left: 0;*/
 
 	float: left;
-	margin: 0 0 10px 0;
+	width: 807px;
 }
 .small_view li {
-	background-color: green;
-
-	float: left;
-
-	width: 248px;
-	height: 147px;
-}
-
-.small_view li a img {
-	width:100%;
-}
-
-.small_view li a {
-	text-decoration: none;
-}
-
-.small_view li a:hover {
-	opacity: 0.5;
-}
-
-.small_view li a p{
-	border: 1px solid black;
-
-	text-align:center;
-	margin: 3px 0 0 0;
-}
-
-
-.small_view li + li {
-	margin-left: 8px;
-}
-.big_view {
-	float: left;
-
-	background-color: blue;	
-
 	position: relative;
-	width: 760px;
-	height: 470px;
+	background-image: url('../img/workroom/university/phone.jpg');
+	background-size: auto;
+	font-size: 0;
+
+	float: left;
+
+	width: 222px;
+	height: 404px;
+
+	margin: 0 47px 20px 0;
+
 }
-.big_view img {
-	width: 100%;
+
+.small_view li img {
+	display: inline-block;
+	margin: 45px 0 0 16px;
+	border: 2px solid gray;
+	border-radius: 5px;
+	width: 185px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.blind {
+	visibility: hidden;
+	height: 0;
+}
+
+
+
+/*
 .story {
 	background-color: blue;
 
@@ -95,3 +107,4 @@ section h3 {
 .story p {
 	line-height: 1.5;
 }
+*/
