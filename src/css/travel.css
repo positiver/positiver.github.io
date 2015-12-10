@@ -38,6 +38,10 @@ section h3 {
 	text-decoration: none;
 }
 
+.small_view li a:hover {
+	opacity: 0.5;
+}
+
 .small_view li a p {
 
 	text-align:center;
